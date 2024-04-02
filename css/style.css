@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* body{
+    perspective: 500px;
+}  */
+.hhh{
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background-color: FEC7B4;
+    opacity: 0.6;
+    position: fixed;
+    overflow: auto;
+    z-index: 10;
+}
+ul{
+    margin-left: 20%;
+}
+li{
+    display: inline-block;
+    color: white;
+    margin: 20px;
+    text-transform: uppercase;
+    
+}
+.a-header{
+    text-decoration: none;
+    color: white;
+}
+.a-header:hover{
+    color: rgb(116, 116, 116);
+}
+.parent{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+   }
+.content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    overflow: auto;
+}
+.makeup{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin: auto;
+    border: 2px solid #F7418F;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.ma2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* section{
+    transition: 2s;
+    transform-style: preserve-3d;
+} */
+.back , .front{
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+}
+.front{
+    z-index: 1;
+    backface-visibility: hidden;
+}
+.img1{
+    width: 100%;
+    height: 450px;
+}
+.button1{
+    width: 100%;
+    height: 48px;
+    background-color:rgb(52, 52, 52);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.makeup:hover{
+    transform:rotateY(180deg);
+}
+.back{
+        transform: rotateY(180deg) ;
+        height: 100%;
+        width: 100%;
+        /* background-color: #FFF3C7; */
+}
+.gr{
+    width: 60%;
+    margin: auto;
+    height: 5%;  
+    margin-left: 150px; 
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+}
+.c1{
+    background-color: #BE3144;
+}
+.c2{
+    background-color: #F4538A;
+}
+.c3{
+    background-color: #FA7070;
+}
+.c4{
+    background-color: #FA7070;
+}
+.c5{
+    background-color: #F9E8C9;
+}
+.hf{
+    margin-top: 5px;
+    margin-left: 90px; 
+}
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+    display: inline-block; 
+}
+.li1{
+    color: black;
+    display: inline-block;
+}
+.ulli{
+    width: 100%;
+    height: 85%;
+
+}
+.title{
+    width: 100%;
+    height:10%
+}
